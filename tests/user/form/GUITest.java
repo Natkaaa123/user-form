@@ -13,6 +13,7 @@ class GUITest {
 
     @org.junit.jupiter.api.Test
     void isValidName() {
+
         Assertions.assertTrue(GUI.isValidName("Natalia"));
         assertNotEquals(GUI.isValidName("Natalia1"), true);
     }
